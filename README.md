@@ -1,2 +1,2 @@
-# Sammy
-codigo sammy
+# tropi
+codigo tropi
