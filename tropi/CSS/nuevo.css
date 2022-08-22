@@ -1,0 +1,248 @@
+/*<!-- inicio de la seccion nuevo -->*/
+#subscribe {
+  padding: 100px 0px;
+  text-align: center;
+  background: url("../imagenes/subscribe-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+#subscribe:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+}
+#subscribe .contesub h1.heading {
+  color: rgb(0, 0, 0);
+  font-family:'roboto';
+  font-size: 20px;
+}
+#subscribe .contesub h1 span {
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-family:'roboto';
+  font-size: 25px;
+}
+#subscribe .contesub p {
+  padding: 25px 0px;
+  color: rgb(0, 0, 0);
+  font-size: 23px;
+  font-family: 'robo'
+}
+
+#subscribe .contesub form .form-control {
+  width: 550px;
+  color: rgb(0, 0, 0);
+  font-family: 'roboto';
+  background: #fff;
+  opacity: 0.9;
+  border: none;
+  height: 55px;
+  border-radius: 0px;
+  font-size: 20px;
+}
+#subscribe .contesub form  {
+  padding: 0px;
+  border: none;
+  background: none;
+}
+#subscribe .contesub form button {
+  width: 80px;
+  height: 20px;
+  border: none;
+  border-radius: 60px;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+}
+
+/*--
+    contact-us Start
+--*/
+#contact-us {
+  width: 100%;
+  padding: 70px 0px;
+}
+.block{
+  max-width: 100%;
+  margin:  20px 50px auto;
+  justify-content: center;
+}
+#contact-us .block .title {
+  padding: 40px 70px;
+}
+
+#contact-us .block h1 span {
+  color: white;
+  text-transform: uppercase;
+  font-family:'roboto';
+  font-size: 25px;
+}
+#contact-us .block form input {
+  width: 1020px;
+  margin-top: 10px;
+  height: 48px;
+  margin-left: 130px;
+  margin-right: 130px;
+  border-radius: 0px;
+  box-shadow: none;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+}
+#contact-us .block form input:focus {
+  border: 1px solid #7EC3BB;
+}
+#contact-us .block form textarea {
+  width: 1020px;
+  height: 500px;
+  margin-top: 10px;
+  border-radius: 0px;
+  margin-left: 130px;
+  margin-right: 130px;
+  box-shadow: none;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+}
+#contact-us .block form textarea:focus {
+  border: 1px solid #7EC3BB;
+}
+#contact-us .block a {
+  background: rgb(0, 0, 0);
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+  width: 312px;
+  height: 20px;
+  margin-left: 820px;
+  margin-right: 97px;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+}
+
+/*footer inicio*/
+#footer {
+  width: 95%;
+  height: 250px;
+  box-shadow: 1px 2px 2px 1px rgb(0, 0, 0);
+  border-radius: 5px;
+  padding:20px 0px;
+  margin-left: 30px;
+
+}
+#footer .info {
+  float: left;
+  width: 22%;
+  margin-left: 8%  
+}
+#footer .blog{
+  float: left;
+  width: 30%;
+  margin-left: 4%  
+}
+
+#footer .info h3,
+#footer .gallary h3{
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  font-weight: 600
+}
+
+#footer .info h3 span,
+#footer .blog h3 span,
+#footer .gallary h3 span,
+#footer .redes h3 span{
+  color: white;
+}
+#footer .info p {
+  color: white;
+  font-size: 15px;
+  padding:10px
+}
+#footer .info h4,
+#footer .blog h4 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin-left: 10px
+}
+#footer .blog h4 a{
+  color: rgb(0, 0, 0);
+  font-size:14px;
+  position: absolute;
+
+}
+#footer .blog p{
+   color: white;
+  font-size: 15px;
+  padding:20px
+}
+#footer .blog h3{
+  color: rgb(0, 0, 0);
+  margin-left: 19px;
+  padding-bottom: 20px;
+  font-weight: 600
+}
+#footer .gallary{
+  float: left;
+  width: 30%;
+  height: 50%;
+  margin-left: 3%;
+  margin-right: 3%  
+}
+.gallary #imgga img{
+  width: 66px;
+  height: 66px; 
+  display: inline-block;
+}
+.gallary #imgga img:hover{
+ opacity: 0.5;
+}
+#footer .redes {
+  float: left;
+ width: 30%;
+  height: 50%;
+  margin-left: 3%;
+  margin-right: 3%; 
+  padding: 50px 0px  
+
+}
+#footer .redes h3 {
+ color: rgb(0, 0, 0);
+ font-family: 'roboto'; 
+ font-size: 20px
+}
+#footer .redes #img {
+display: inline-block;
+padding-left:16px 
+}
+#footer .redes #img:hover {
+opacity: 0.3;
+border-radius: 2px;
+
+}
+/*--
+    footer-bottom Start
+--*/
+
+.pie  {
+  text-align: center;
+  color: white;
+ 
+}

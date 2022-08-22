@@ -1,0 +1,39 @@
+
+
+.buscar {
+	margin:0% ;
+	display: flex;
+	padding: 0px;
+	float:right;
+
+}
+
+#cuerpo {
+	margin: auto;
+}
+#cuerpo > div {
+	display: flex;
+	background:#fff;
+	padding: 9px 22px 9px 26px;
+	border-radius: 30px;
+	border:2px solid #364e66;
+	box-shadow: rgba(5, 5, 5, 0.5) -8px -8px 15px,
+		rgba(235, 161, 161, 0.1) 10px 10px 10px,
+		rgba(218, 160, 160, 0.5) -8px -8px 15px inset,
+		rgba(180, 160, 160, 0.1) 10px 10px 10px inset;
+}
+#cuerpo input {
+	border:none;
+	background: transparent;
+	font-weight: bold;
+	padding-left: 24px;
+	background-image: url(https://image.flaticon.com/icons/png/512/116/116836.png);
+	background-size: 16px;
+	background-repeat: no-repeat;
+	width: 0px;
+	transition: all 1s;
+}
+#cuerpo input:focus {
+	outline: none;
+	width: 300px;
+}

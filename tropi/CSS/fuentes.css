@@ -1,0 +1,39 @@
+@font-face{
+	font-family:sourcesan;
+	src:url(../fuentes/SourceSansPro-Regular.otf);
+}
+@font-face{
+	font-family:robo;
+	src:url(../fuentes/Roboto-MediumItalic.ttf);
+}
+@font-face{
+	font-family:fonta;
+	src:url(../fuentes/FontAwesome.otf);
+}
+@font-face{
+	font-family:roboto;
+	src:url(../fuentes/Roboto-Black.ttf);
+}
+@font-face{
+	font-family:fontawe;
+	src:url(../fuentes/fontawesome-webfont.ttf);
+}
+@font-face{
+	font-family:SourceCodePro-MediumIt;
+	src:url(../fuentes/SourceCodePro-MediumIt.otf);
+}@font-face{
+	font-family:SourceCodePro-Bold;
+	src:url(../fuentes/SourceCodePro-Bold.otf);
+}@font-face{
+	font-family:SourceCodePro-Medium;
+	src:url(../fuentes/SourceCodePro-Medium.otf);
+}@font-face{
+	font-family:SourceSansPro-Black;
+	src:url(../fuentes/SourceSansPro-Black.otf);
+}@font-face{
+	font-family:SourceSerifPro-BlackIt;
+	src:url(../fuentes/SourceSerifPro-BlackIt.otf);
+}@font-face{
+	font-family:SourceSerifPro-BoldIt;
+	src:url(../fuentes/SourceSerifPro-BoldIt.otf);
+}
